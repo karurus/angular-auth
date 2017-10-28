@@ -1,0 +1,9 @@
+<h2>Pokemon TCG</h2>
+{{response}}
+<ul>
+  <li style="list-style-type: none" *ngFor="let card of cards;">
+    <img src="{{card.imageUrl}}" style="width:auto;height:100px"> {{card.name}}
+    <hr>
+  </li>
+
+</ul>
